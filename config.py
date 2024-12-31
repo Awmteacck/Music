@@ -7,13 +7,13 @@ load_dotenv()
 
 class Config(object):
     # required config variables
-    API_HASH = getenv("API_HASH", None)                # get from my.telegram.org
-    API_ID = int(getenv("API_ID", 0))                  # get from my.telegram.org
-    BOT_TOKEN = getenv("BOT_TOKEN", None)              # get from @BotFather
-    DATABASE_URL = getenv("DATABASE_URL", None)        # from https://cloud.mongodb.com/
-    HELLBOT_SESSION = getenv("HELLBOT_SESSION", None)  # enter your session string here
-    LOGGER_ID = int(getenv("LOGGER_ID", 0))            # make a channel and get its ID
-    OWNER_ID = getenv("OWNER_ID", "")                  # enter your id here
+    API_HASH = getenv("6da533e7c45bc668182b5a0f5a4497dd", None)                # get from my.telegram.org
+    API_ID = int(getenv("22658021", 0))                  # get from my.telegram.org
+    BOT_TOKEN = getenv("7902782706:AAE-IS88ujC2w8zb8CT0LAs25joNPFUw8mI", None)              # get from @BotFather
+    DATABASE_URL = getenv("mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority", None)        # from https://cloud.mongodb.com/
+    HELLBOT_SESSION = getenv("BQFZu-UAgqtUIQNmJjC92qTFvTksgND6RVa_dq49tn0fJOXb7jw9ci5Obc9EigL57PHkNMg8W6VT0tgc3hx2uDA2tNKYZgHXpUEkWLGyLkI6y3PnRTySn9VQi5upM22WP_XWcmd3fBZruIWrerNJcBwXhAMB4AmBPPWTgrzMMabhPdcia3B0yX582rfnG_DitgydYtioOxlgyLYmjQhnFQacCdA7s7SFZNY0cwIwzI_xBhPFIT8E4rST6PJSMAWvo2FwQgdL8vvf3NCGkuVPQYKJnJIJrGkz0xWFFNMIeG7oIrVh5iu4-2-D8O8VTKGV5BrJ7DMJ8-l4MqJhcq-3t9cBLMmW2wAAAAF4n1AAAA", None)  # enter your session string here
+    LOGGER_ID = int(getenv("-1002337115461", 0))            # make a channel and get its ID
+    OWNER_ID = getenv("6318673920", "")                  # enter your id here
 
     # optional config variables
     BLACK_IMG = getenv("BLACK_IMG", "https://telegra.ph/file/2c546060b20dfd7c1ff2d.jpg")        # black image for progress
